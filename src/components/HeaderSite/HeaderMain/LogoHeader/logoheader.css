@@ -1,0 +1,8 @@
+.logoHeader {
+    display: flex;
+    align-items: center;
+}
+.logoHeader span {
+    margin-left: 10px;
+    font-weight: 600;
+}
