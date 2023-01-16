@@ -4,7 +4,7 @@ import {LogoHeader} from "./LogoHeader";
 
 export function HeaderMain() {
   return (
-      <div>
+      <div className='headerMain'>
           <LogoHeader />
       </div>
   );
