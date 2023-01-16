@@ -1,0 +1,20 @@
+.navInfo {
+    display: flex;
+    align-items: center;
+}
+
+.navInfo span {
+    font-family: 'Manrope', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 145%;
+    color: #5D6066;
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.navInfo span:hover {
+    color: #2F323A;
+    cursor: pointer;
+}

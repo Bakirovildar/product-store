@@ -1,0 +1,14 @@
+.cityInfo {
+    display: flex;
+    align-items: center;
+}
+.cityInfo span {
+    color: #5D6066;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.cityInfo span:hover {
+    color: #2F323A;
+    cursor: pointer;
+}

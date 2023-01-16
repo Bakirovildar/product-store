@@ -1,0 +1,8 @@
+.infoContainer {
+    background: #F6F6F6;
+    padding: 12px 140px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
