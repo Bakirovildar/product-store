@@ -17,7 +17,7 @@ export function HeaderSort() {
 
     return (
         <div className='headerSort'>
-            {sortItems.map(item => <span>{item.title}</span>)}
+            {sortItems.map(item => <span key={item.id}>{item.title}</span>)}
         </div>
     )
 }
