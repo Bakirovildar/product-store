@@ -4,14 +4,26 @@
     width: 100%;
 }
 
+.optionSearch {
+    width: 100%;
+    padding-right: 65px;
+    display: block;
+}
+
 @media all and (min-width: 1024px){
     .headerOptions {
         padding-left: 114px;
     }
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 0px) and (max-width: 1184px) {
     .headerOptions {
         padding-left: 16px;
+        display: flex;
+        justify-content: right;
+    }
+
+    .optionSearch {
+        display: none;
     }
 }

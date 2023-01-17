@@ -12,7 +12,7 @@ export function HeaderOptions() {
   return (
       <div className='headerOptions'>
           <ButtonComponent title={'Каталог'}/>
-          <SearchComponent />
+          <div className='optionSearch'><SearchComponent /></div>
           <HeaderMainNav title={'Профиль'} icon={<IconProfile />} />
           <HeaderMainNav title={'Заказы'} icon={<IconOrder />} />
           <HeaderMainNav title={'Корзина'} icon={<IconBasket />} />

@@ -1,11 +1,11 @@
 .serachComponent {
     width: 100%;
     min-width: 100px;
-    margin-left: 16px;
     padding: 16px 35px 16px 16px;
     background: #F6F6F6;
     border: none;
     outline: none;
+    box-sizing: border-box;
     border-bottom: 1px solid #D1D1D3;
     background-image: url("../../../assests/iconSearch.svg");
     background-repeat: no-repeat;

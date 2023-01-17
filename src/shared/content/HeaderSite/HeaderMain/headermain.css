@@ -1,6 +1,38 @@
+.mainAdaptive {
+    display: block;
+    box-sizing: border-box;
+    border-bottom: none;
+}
+
 .headerMain {
     padding: 17px 140px;
     box-sizing: border-box;
     display: flex;
     border-bottom: 1px solid #E8E9EA;
+}
+
+.searchMob {
+    display: none;
+    padding: 0 140px;
+    box-sizing: border-box;
+}
+
+@media all and (min-width: 1024px) {
+}
+
+@media all and (min-width: 0px) and (max-width: 1184px) {
+    .mainAdaptive {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #E8E9EA;
+        padding-bottom: 9px;
+    }
+
+    .searchMob {
+        display: block;
+    }
+
+    .headerMain {
+        border-bottom: none;
+    }
 }

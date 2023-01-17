@@ -5,6 +5,7 @@
     padding: 12px 25px;
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 
 .buttonComponent:hover {
