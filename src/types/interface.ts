@@ -10,3 +10,7 @@ export interface IInfoItem {
     title: string
     id: number
 }
+
+export interface IWhiteColor {
+    isWhiteColor: boolean
+}

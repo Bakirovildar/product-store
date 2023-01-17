@@ -1,0 +1,11 @@
+.buttonComponent {
+    background: #FCEC41;
+    border: none;
+    cursor: pointer;
+    padding: 18px 25px;
+}
+
+.buttonComponent:hover {
+    background: #2F323A;
+    color: #ffff;
+}
