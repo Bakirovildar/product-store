@@ -14,3 +14,7 @@ export interface IInfoItem {
 export interface IWhiteColor {
     isWhiteColor: boolean
 }
+
+export interface IButton {
+    title: string
+}

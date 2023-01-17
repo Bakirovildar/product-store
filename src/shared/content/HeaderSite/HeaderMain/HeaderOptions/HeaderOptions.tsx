@@ -5,7 +5,7 @@ import {ButtonComponent} from "../../../../components/ButtonComponent";
 export function HeaderOptions() {
   return (
       <div>
-          <ButtonComponent/>
+          <ButtonComponent title={'Каталог'}/>
       </div>
   )
 }

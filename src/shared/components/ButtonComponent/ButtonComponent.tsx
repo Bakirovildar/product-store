@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import './buttoncomponent.css';
 import {IconBurger} from "../../../assests/icons/IconBurger";
+import {IButton} from "../../../types/interface";
 
-export function ButtonComponent() {
+export function ButtonComponent({title}: IButton) {
   const [isWhiteColor, setIsWhiteColor] = useState(false)
 
   return (
@@ -12,7 +13,7 @@ export function ButtonComponent() {
           className='buttonComponent'
       >
         <IconBurger isWhiteColor={isWhiteColor}/>
-        <span>Каталог</span>
+        <span>{title}</span>
       </button>
   );
 }
