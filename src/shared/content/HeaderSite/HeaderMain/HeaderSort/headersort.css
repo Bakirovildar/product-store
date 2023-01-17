@@ -1,3 +1,25 @@
 .headerSort {
+    padding: 10px 140px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.headerSort span {
+    font-family: 'Manrope', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #454950;
+    cursor: pointer;
+}
+
+.headerSort span:hover {
+    color: #171B24;
+}
+
+@media all and (min-width: 0px) and (max-width: 1184px) {
+    .headerSort {
+        display: none;
+    }
 }
