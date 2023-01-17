@@ -1,6 +1,7 @@
 .headerOptions {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 @media all and (min-width: 1024px){

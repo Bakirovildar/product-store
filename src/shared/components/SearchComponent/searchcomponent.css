@@ -1,6 +1,7 @@
 .serachComponent {
     width: 100%;
     min-width: 100px;
+    margin-left: 16px;
     padding: 16px 35px 16px 16px;
     background: #F6F6F6;
     border: none;

@@ -20,3 +20,8 @@ export interface IWhiteColor {
 export interface IButton {
     title: string
 }
+
+export  interface IHeaderMainNav {
+    title: string
+    icon: React.ReactNode
+}
