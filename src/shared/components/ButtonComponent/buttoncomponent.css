@@ -3,9 +3,15 @@
     border: none;
     cursor: pointer;
     padding: 18px 25px;
+    display: flex;
+    align-items: center;
 }
 
 .buttonComponent:hover {
     background: #2F323A;
     color: #ffff;
+}
+
+.buttonComponent span {
+    margin-left: 12px;
 }
