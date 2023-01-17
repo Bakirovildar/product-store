@@ -4,10 +4,11 @@ import {ButtonComponent} from "../../../../components/ButtonComponent";
 import {SearchComponent} from "../../../../components/SearchComponent";
 
 export function HeaderOptions() {
+
   return (
-      <div>
+      <div className='headerOptions'>
           <ButtonComponent title={'Каталог'}/>
-          <SearchComponent/>
+          <SearchComponent />
       </div>
   )
 }
