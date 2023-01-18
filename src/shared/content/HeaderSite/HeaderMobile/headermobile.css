@@ -1,0 +1,19 @@
+.headerMobileWrapper {
+    padding: 0 22px;
+}
+
+.headerMobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    align-items: center;
+}
+
+.headerMobileLogo {
+    display: flex;
+    align-items: center;
+}
+
+.headerMobileLogo span {
+    margin-left: 7px;
+}
