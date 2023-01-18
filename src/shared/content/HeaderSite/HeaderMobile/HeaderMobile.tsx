@@ -5,6 +5,7 @@ import {IconLogo} from "../../../../assests/icons/IconLogo";
 import {IconBasket} from "../../../../assests/icons/IconBasket";
 import {SearchComponent} from "../../../components/SearchComponent";
 import {IconClose} from "../../../../assests/icons/IconClose";
+import {DropdownMenu} from "../../../components/DropdownMenu";
 
 export function HeaderMobile() {
     const [isOpen, setIsOpen] = useState<boolean>(false)
@@ -24,6 +25,7 @@ export function HeaderMobile() {
                 <IconBasket/>
             </div>
             <SearchComponent/>
+            <DropdownMenu/>
         </div>
     );
 }
