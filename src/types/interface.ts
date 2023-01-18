@@ -22,6 +22,11 @@ export interface IButton {
     title: string
 }
 
+export interface IButtonProfile {
+    title: string
+    icon: React.ReactNode
+}
+
 export  interface IHeaderMainNav {
     title: string
     icon: React.ReactNode

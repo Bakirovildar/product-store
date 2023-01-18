@@ -18,3 +18,10 @@
 .buttonComponent span {
     margin-left: 12px;
 }
+
+
+@media all and (min-width: 0px) and (max-width: 706px) {
+    .buttonComponent {
+        justify-content: center;
+    }
+}

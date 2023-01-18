@@ -1,0 +1,14 @@
+.buttonProfile {
+    padding: 12px 0;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D3;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonProfile span {
+    margin-left: 12px;
+}
