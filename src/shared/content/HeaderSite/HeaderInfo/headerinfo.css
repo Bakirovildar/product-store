@@ -5,4 +5,31 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.podContainer {
+    background: #F6F6F6;
+    padding: 12px 96px;
+    box-sizing: border-box;
+    width: 100%;
+    display: none;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+@media all and (min-width: 360px) and (max-width: 796px) {
+    .podContainer {
+        display: flex;
+    }
+
+    .infoContainer {
+        display: none;
+    }
 }

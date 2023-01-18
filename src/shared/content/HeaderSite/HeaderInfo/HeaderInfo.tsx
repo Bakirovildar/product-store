@@ -11,11 +11,22 @@ export function HeaderInfo() {
         {title: 'Документация', id: 5},
         {title: 'Контакты', id: 6},
     ]
+    const arrWarning = [
+        {title: 'Доставка', id: 3},
+        {title: 'Возврат', id: 4},
+        {title: 'Контакты', id: 6},
+    ]
 
-  return (
-      <div className='infoContainer'>
-          <LocationInfo city={'Москва'}/>
-          <NavInfo navTitle={arr}/>
-      </div>
-  );
+    return (
+        <>
+            <div className='infoContainer'>
+                <LocationInfo city={'Москва'}/>
+                <NavInfo navTitle={arr}/>
+            </div>
+            <div className='podContainer'>
+                <LocationInfo city={'Москва'}/>
+                <NavInfo navTitle={arrWarning}/>
+            </div>
+        </>
+    );
 }

@@ -12,7 +12,9 @@ export function HeaderMain() {
                 <LogoHeader/>
                 <HeaderOptions/>
             </div>
-            <div className='searchMob'><SearchComponent/></div>
+            <div className='searchMob'>
+                <SearchComponent/>
+            </div>
         </div>
     );
 }

@@ -2,10 +2,11 @@
     display: block;
     box-sizing: border-box;
     border-bottom: none;
+    margin-top: 52px;
 }
 
 .headerMain {
-    padding: 17px 140px;
+    padding: 17px 0px;
     box-sizing: border-box;
     display: flex;
     border-bottom: 1px solid #E8E9EA;
@@ -13,7 +14,6 @@
 
 .searchMob {
     display: none;
-    padding: 0 140px;
     box-sizing: border-box;
 }
 

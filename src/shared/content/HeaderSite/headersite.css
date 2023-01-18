@@ -1,13 +1,21 @@
-.headerContainer {
+.header-container-desktop {
     width: 100%;
-    padding-right: 140px;
+    padding: 0 140px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
 
+.header-container-mobile {
+    display: none;
+}
 
-@media all and (min-width: 0px) and (max-width: 796px) {
-    .headerContainer {
+@media all and (min-width: 360px) and (max-width: 796px) {
+    .header-container-desktop {
+        padding: 0 98px;
+    }
+
+    .header-container-mobile {
         display: none;
     }
 }
