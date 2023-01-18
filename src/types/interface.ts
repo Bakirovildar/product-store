@@ -13,8 +13,9 @@ export interface IInfoItem {
     id: number
 }
 
-export interface IWhiteColor {
-    isWhiteColor: boolean
+export interface IIconBurger {
+    isWhiteColor?: boolean
+    clickBurger?: () => void
 }
 
 export interface IButton {

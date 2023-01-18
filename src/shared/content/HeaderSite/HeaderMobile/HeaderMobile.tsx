@@ -1,19 +1,29 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './headermobile.css';
 import {IconBurger} from "../../../../assests/icons/IconBurger";
 import {IconLogo} from "../../../../assests/icons/IconLogo";
 import {IconBasket} from "../../../../assests/icons/IconBasket";
 import {SearchComponent} from "../../../components/SearchComponent";
+import {IconClose} from "../../../../assests/icons/IconClose";
 
 export function HeaderMobile() {
+    const [isOpen, setIsOpen] = useState<boolean>(false)
+
+    const clickBurger = () => {
+        setIsOpen(!isOpen)
+    }
+
     return (
         <div className='headerMobileWrapper'>
             <div className='headerMobile'>
-                <IconBurger isWhiteColor={false}/>
+                {!isOpen
+                    ? <IconBurger clickBurger={clickBurger} isWhiteColor={false}/>
+                    : <IconClose clickBurger={clickBurger} />
+                }
                 <div className='headerMobileLogo'><IconLogo/><span>StroykaStore</span></div>
                 <IconBasket/>
             </div>
-            <SearchComponent />
+            <SearchComponent/>
         </div>
     );
 }
