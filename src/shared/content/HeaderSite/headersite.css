@@ -10,13 +10,19 @@
     display: none;
 }
 
-@media all and (min-width: 360px) and (max-width: 796px) {
+@media all and (min-width: 706px) and (max-width: 796px) {
     .header-container-desktop {
         padding: 0 98px;
     }
+}
+
+@media all and (min-width: 0px) and (max-width: 706px) {
+    .header-container-desktop {
+        display: none;
+    }
 
     .header-container-mobile {
-        display: none;
+        display: block;
     }
 }
 

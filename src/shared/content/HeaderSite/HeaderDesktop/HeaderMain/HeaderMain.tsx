@@ -2,7 +2,7 @@ import React from 'react';
 import './headermain.css';
 import {LogoHeader} from "./LogoHeader";
 import {HeaderOptions} from "./HeaderOptions";
-import {SearchComponent} from "../../../components/SearchComponent";
+import {SearchComponent} from "../../../../components/SearchComponent";
 
 
 export function HeaderMain() {

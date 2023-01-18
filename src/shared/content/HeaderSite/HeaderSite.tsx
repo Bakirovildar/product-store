@@ -1,8 +1,9 @@
 import React from 'react';
 import './headersite.css';
-import {HeaderInfo} from "./HeaderInfo";
-import {HeaderMain} from "./HeaderMain";
-import {HeaderSort} from "./HeaderSort";
+import {HeaderInfo} from "./HeaderDesktop/HeaderInfo";
+import {HeaderMain} from "./HeaderDesktop/HeaderMain";
+import {HeaderSort} from "./HeaderDesktop/HeaderSort";
+import {HeaderMobile} from "./HeaderMobile";
 
 export function HeaderSite() {
     return (
@@ -14,7 +15,7 @@ export function HeaderSite() {
             </header>
 
             <header className='header-container-mobile'>
-                mobile
+                <HeaderMobile />
             </header>
         </>
     );

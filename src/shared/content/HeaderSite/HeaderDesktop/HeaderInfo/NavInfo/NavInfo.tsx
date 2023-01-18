@@ -1,6 +1,6 @@
 import React from 'react';
 import './navinfo.css';
-import {IInfoItem, INavInfo} from "../../../../../types/interface";
+import {IInfoItem, INavInfo} from "../../../../../../types/interface";
 
 export function NavInfo({navTitle}: INavInfo) {
   return (
