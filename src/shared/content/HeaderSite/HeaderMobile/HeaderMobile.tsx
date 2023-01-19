@@ -25,7 +25,7 @@ export function HeaderMobile() {
                 <IconBasket/>
             </div>
             <SearchComponent/>
-            <DropdownMenu/>
+            {isOpen && <DropdownMenu/> }
         </div>
     );
 }
