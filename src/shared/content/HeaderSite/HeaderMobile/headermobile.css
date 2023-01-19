@@ -1,6 +1,7 @@
 .headerMobileWrapper {
     padding: 0 22px 6px;
     border-bottom: 1px solid #E8E9EA;
+    box-sizing: border-box;
 }
 
 .headerMobile {

@@ -5,7 +5,8 @@
     right: 0;
     bottom: 0;
     padding: 14px 22px;
-    overflow: auto;
+    box-sizing: border-box;
+    overflow-x: auto;
     z-index: 500;
 }
 

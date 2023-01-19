@@ -8,6 +8,7 @@
 
 .header-container-mobile {
     display: none;
+    box-sizing: border-box;
 }
 
 @media all and (min-width: 706px) and (max-width: 796px) {
