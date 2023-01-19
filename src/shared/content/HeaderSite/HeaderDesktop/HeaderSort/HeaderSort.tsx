@@ -1,11 +1,11 @@
 import React from 'react'
 import './headersort.css'
-import {sortItems} from "../../../../../helpers/sortItems";
+import {items} from "../../../../../helpers/items";
 
 export function HeaderSort() {
     return (
         <div className='headerSort'>
-            {sortItems.map(item => <span key={item.id}>{item.title}</span>)}
+            {items.map(item => <span key={item.id}>{item.title}</span>)}
         </div>
     )
 }

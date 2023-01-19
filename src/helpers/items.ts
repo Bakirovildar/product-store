@@ -1,4 +1,4 @@
-export const sortItems = [
+export const items = [
     {id: 1, title: 'Акции'},
     {id: 2, title: 'Строительные материалы'},
     {id: 3, title: 'Керамическая плитка'},
@@ -8,4 +8,17 @@ export const sortItems = [
     {id: 7, title: 'Инструменты'},
     {id: 8, title: 'Обои'},
     {id: 9, title: 'Окна'},
+]
+
+export const arrOrders = [
+    {title: 'Бренды', id: 2},
+    {title: 'Доставка', id: 3},
+    {title: 'Возврат', id: 4},
+    {title: 'Документация', id: 5},
+    {title: 'Контакты', id: 6},
+]
+export const arrWarning = [
+    {title: 'Доставка', id: 3},
+    {title: 'Возврат', id: 4},
+    {title: 'Контакты', id: 6},
 ]

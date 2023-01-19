@@ -5,9 +5,31 @@
     right: 0;
     bottom: 0;
     padding: 14px 22px;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 0;
 }
 
 .dropdownCity {
     padding: 20px 0;
     border-bottom: 1px solid #E8E9EA;
+}
+
+.sortMobile {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #E8E9EA;
+}
+
+.sortMobile span {
+    margin: 14px 0;
+    font-family: 'Manrope', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #454950;
+    cursor: pointer;
 }
