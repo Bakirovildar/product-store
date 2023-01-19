@@ -6,6 +6,7 @@
     bottom: 0;
     padding: 14px 22px;
     overflow: auto;
+    z-index: 500;
 }
 
 ::-webkit-scrollbar {
