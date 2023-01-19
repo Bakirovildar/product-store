@@ -6,3 +6,8 @@
     bottom: 0;
     padding: 14px 22px;
 }
+
+.dropdownCity {
+    padding: 20px 0;
+    border-bottom: 1px solid #E8E9EA;
+}
