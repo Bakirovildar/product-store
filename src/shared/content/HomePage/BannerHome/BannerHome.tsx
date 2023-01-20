@@ -1,8 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './bannerhome.css';
 import {ButtonStandart} from "../../../components/buttons/ButtonStandart";
+import {IconArrowLeft} from "../../../../assests/icons/IconArrowLeft";
+import {IconArrowRight} from "../../../../assests/icons/IconArrowRight";
 
 export function BannerHome() {
+    const [isWhiteColorLeft, setIsWhiteColorLeft] = useState(false)
+    const [isWhiteColorRight, setIsWhiteColorRight] = useState(false)
+
     return (
         <div className='bannerHome'>
             <div className='bannerLeftSide'>
@@ -16,6 +21,18 @@ export function BannerHome() {
             </div>
 
             <div className='bannerRightSide'>
+                <div
+                    onMouseEnter={() => setIsWhiteColorLeft(true)}
+                    onMouseLeave={() => setIsWhiteColorLeft(false)}
+                    className='arrowLeft'>
+                    <IconArrowLeft isWhiteColor={isWhiteColorLeft}/>
+                </div>
+                <div
+                    onMouseEnter={() => setIsWhiteColorRight(true)}
+                    onMouseLeave={() => setIsWhiteColorRight(false)}
+                    className='arrowRight'>
+                    <IconArrowRight isWhiteColor={isWhiteColorRight}/>
+                </div>
             </div>
 
         </div>

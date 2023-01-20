@@ -1,8 +1,10 @@
 .bannerHome {
+    box-sizing: border-box;
     height: 420px;
-    width: 100%;
     margin: 40px 40px 82px;
     padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .bannerLeftSide {
@@ -11,11 +13,15 @@
     justify-content: space-between;
     height: 100%;
     width: 570px;
+    box-sizing: border-box;
+
 }
 
 .leftTitle {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+
 }
 
 .head1 {
@@ -34,14 +40,50 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
-
     display: flex;
     align-items: center;
     color: #454950;
 }
 
 .bannerRightSide {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
 
+.arrowLeft {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    width: 52px;
+    height: 52px;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D3;
+    cursor: pointer;
+}
+
+.arrowRight {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    width: 52px;
+    height: 52px;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D3;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.arrowLeft:hover {
+    background: #2F323A;
+}
+
+.arrowRight:hover {
+    background: #2F323A;
 }
 
 .buttonWrapper {
