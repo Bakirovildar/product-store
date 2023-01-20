@@ -1,0 +1,38 @@
+
+.bannerLeftSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 570px;
+    box-sizing: border-box;
+
+}
+
+.leftTitle {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+
+.head1 {
+    margin-bottom: 20px;
+    font-family: 'Manrope', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #171B24;
+}
+
+.title1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #454950;
+}
