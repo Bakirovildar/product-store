@@ -1,9 +1,9 @@
 import React from 'react';
 import './homepage.css';
-import {HeaderSite} from "../HeaderSite";
+import {BannerHome} from "./BannerHome";
 
 export function HomePage() {
   return (
-      <HeaderSite />
+      <BannerHome/>
   );
 }

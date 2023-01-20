@@ -1,6 +1,6 @@
 import React from 'react'
 import './headeroptions.css'
-import {ButtonComponent} from "../../../../../components/ButtonComponent";
+import {ButtonComponent} from "../../../../../components/buttons/ButtonComponent";
 import {SearchComponent} from "../../../../../components/SearchComponent";
 import {HeaderMainNav} from "../../../../../components/HeaderMainNav";
 import {IconProfile} from "../../../../../../assests/icons/IconProfile";

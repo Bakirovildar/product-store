@@ -1,7 +1,7 @@
 import React from 'react';
 import './dropdownmenu.css';
-import {ButtonComponent} from "../ButtonComponent";
-import {ButtonProfile} from "../ButtonProfile";
+import {ButtonComponent} from "../buttons/ButtonComponent";
+import {ButtonProfile} from "../buttons/ButtonProfile";
 import {IconProfile} from "../../../assests/icons/IconProfile";
 import {IconOrder} from "../../../assests/icons/IconOrder";
 import {LocationInfo} from "../../content/HeaderSite/HeaderDesktop/HeaderInfo/LocationInfo";

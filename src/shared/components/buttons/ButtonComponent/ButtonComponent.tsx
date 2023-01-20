@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './buttoncomponent.css';
-import {IconBurger} from "../../../assests/icons/IconBurger";
-import {IButton} from "../../../types/interface";
+import {IconBurger} from "../../../../assests/icons/IconBurger";
+import {IButton} from "../../../../types/interface";
 
 export function ButtonComponent({title}: IButton) {
   const [isWhiteColor, setIsWhiteColor] = useState(false)
