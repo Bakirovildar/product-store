@@ -1,4 +1,5 @@
 import React from "react";
+import img1 from "../assests/img/bg1.png";
 
 export interface ILocationCity {
     city: string
@@ -30,4 +31,11 @@ export interface IButtonProfile {
 export  interface IHeaderMainNav {
     title: string
     icon: React.ReactNode
+}
+
+export  interface IBackgroundBanner {
+    id?: number
+    title?: string
+    text?: string
+    img?: string
 }

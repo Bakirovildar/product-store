@@ -1,12 +1,12 @@
 import React from 'react';
 import './backgroundbanner.css';
-import {backgrounds} from "../../../helpers/bannerBg";
+import {IBackgroundBanner} from "../../../types/interface";
 
-export function BackgroundBanner() {
+export function BackgroundBanner({img}: IBackgroundBanner) {
     return (
         <>
             <div className='backgroundBanner'>
-                <img src={backgrounds[0].img} alt=""/>
+                <img src={img} alt=""/>
             </div>
         </>
     )
