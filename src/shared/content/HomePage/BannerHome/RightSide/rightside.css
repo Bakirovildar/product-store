@@ -16,6 +16,7 @@
     background: #FFFFFF;
     border: 1px solid #D1D1D3;
     cursor: pointer;
+    transition: all 300ms ease;
 }
 
 .arrowRight {
@@ -30,6 +31,7 @@
     border: 1px solid #D1D1D3;
     margin-left: 12px;
     cursor: pointer;
+    transition: all 300ms ease;
 }
 
 .arrowLeft:hover {
