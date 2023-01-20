@@ -8,6 +8,7 @@ import {backgrounds} from '../../../../helpers/bannerBg'
 export function BannerHome() {
     const [bannerItem, setBannerItem]: any = useState(null)
     const [nowBanner, setNowBanner]: any = useState(null)
+    const [bannerNum, setBannerNum]: any = useState(0)
 
     useEffect(() => {
         setBannerItem(backgrounds)
@@ -15,15 +16,31 @@ export function BannerHome() {
 
     useEffect(() => {
         if (!bannerItem) return
-
         bannerItem.map((item: object, index: number) => {
-            const middle = Math.ceil(bannerItem.length / 2)
-            if (index + 1 === middle) {
+            const middleNum = Math.ceil(bannerItem.length / 2)
+            if (index === middleNum) {
                 return setNowBanner(item)
             }
         })
-
     }, [bannerItem, nowBanner])
+
+    useEffect(() => {
+        if(!bannerNum) {
+            setBannerNum(1)
+            return
+        }
+        setNowBanner(bannerItem[bannerNum - 1])
+    }, [bannerNum, nowBanner])
+
+    const clickLeftHandler = () => {
+        if (bannerNum < 1) return
+        setBannerNum(bannerNum - 1)
+    }
+
+    const clickRightHandler = () => {
+        if (bannerNum === bannerItem.length) return
+        setBannerNum(bannerNum + 1)
+    }
 
     return (
         <div className='bannerHome'>
@@ -41,7 +58,7 @@ export function BannerHome() {
                     />
                     : ''
             }
-            <RightSide/>
+            <RightSide clickLeftHandler={clickLeftHandler} clickRightHandler={clickRightHandler}/>
         </div>
     );
 }

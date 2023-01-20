@@ -39,3 +39,8 @@ export  interface IBackgroundBanner {
     text?: string
     img?: string
 }
+
+export  interface IRightSide {
+    clickRightHandler: () => void
+    clickLeftHandler: () => void
+}
