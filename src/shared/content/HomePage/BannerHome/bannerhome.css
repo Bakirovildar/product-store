@@ -5,4 +5,5 @@
     padding: 40px 100px;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }

@@ -1,8 +1,8 @@
-
 .bannerRightSide {
     display: flex;
     justify-content: right;
     align-items: end;
+    z-index: 200;
 }
 
 .arrowLeft {
