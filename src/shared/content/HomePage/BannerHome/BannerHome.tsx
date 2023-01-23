@@ -4,8 +4,6 @@ import {RightSide} from "./RightSide";
 import {LeftSide} from "./LeftSide";
 import {BackgroundBanner} from "../../../components/BackgroundBanner";
 import {backgrounds} from '../../../../helpers/bannerBg'
-import {Carousel, Image} from "react-bootstrap";
-import {ButtonStandart} from "../../../components/buttons/ButtonStandart";
 
 export function BannerHome() {
     const [bannerItem, setBannerItem]: any = useState(null)
