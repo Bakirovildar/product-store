@@ -1,7 +1,7 @@
 .bannerRightSide {
     display: flex;
     justify-content: right;
-    align-items: end;
+    align-items: flex-end;
     z-index: 200;
 }
 
