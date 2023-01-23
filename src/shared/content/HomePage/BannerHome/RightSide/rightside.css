@@ -46,3 +46,11 @@
     width: 147px;
     height: 48px;
 }
+
+
+@media all and (min-width: 0px) and (max-width: 706px) {
+    .bannerRightSide {
+        display: none;
+    }
+}
+
