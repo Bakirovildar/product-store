@@ -1,9 +1,13 @@
 import React from 'react';
 import './homepage.css';
 import {BannerHome} from "./BannerHome";
+import {CategoryWrapper} from "../../components/CategoryWrapper";
 
 export function HomePage() {
-  return (
-      <BannerHome/>
-  );
+    return (
+        <>
+            <BannerHome/>
+            <CategoryWrapper />
+        </>
+    );
 }

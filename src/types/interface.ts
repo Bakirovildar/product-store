@@ -20,7 +20,13 @@ export interface IIconBurger {
 }
 
 export interface IButton {
-    title: string
+    title?: string
+}
+
+export interface ICategoryWrapper {
+    headerTitle?: string
+    buttonTitle?: string
+    categoriesNode?: React.ReactNode
 }
 
 export interface IButtonProfile {
