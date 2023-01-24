@@ -7,7 +7,10 @@ export function HomePage() {
     return (
         <>
             <BannerHome/>
-            <CategoryWrapper />
+            <CategoryWrapper
+                headerTitle='Акции'
+                buttonTitle='Все акции'
+            />
         </>
     );
 }
