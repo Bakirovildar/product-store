@@ -21,3 +21,20 @@
     align-items: center;
     color: #2F323A;
 }
+
+.wrapperContainer {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+@media all and (min-width: 0px) and (max-width: 850px) {
+    .wrapperContainer {
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+}
+

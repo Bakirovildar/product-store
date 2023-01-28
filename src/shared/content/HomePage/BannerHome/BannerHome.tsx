@@ -30,11 +30,11 @@ export function BannerHome() {
     }, [bannerNum, nowBanner])
 
     const clickLeftHandler = () => {
-        setBannerNum(bannerNum === 1 ? bannerItems.length: bannerNum - 1)
+        setBannerNum(bannerNum === 1 ? bannerItems.length : bannerNum - 1)
     }
 
     const clickRightHandler = () => {
-        setBannerNum(bannerNum == bannerItems.length ? 1 : bannerNum + 1)
+        setBannerNum(bannerNum === bannerItems.length ? 1 : bannerNum + 1)
     }
 
     return (

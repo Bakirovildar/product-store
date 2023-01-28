@@ -10,7 +10,7 @@ export function CategoryWrapper({headerTitle, buttonTitle, categoriesNode}: ICat
                 <span className='headerTitle'>{headerTitle}</span>
                 <ButtonReview buttonTitle={buttonTitle}/>
             </div>
-            <>{categoriesNode}</>
+            <div className='wrapperContainer'>{categoriesNode}</div>
         </div>
     )
 }

@@ -50,3 +50,11 @@ export  interface IRightSide {
     clickRightHandler: () => void
     clickLeftHandler: () => void
 }
+
+export interface ICardComponent {
+    img: string
+    sale: string
+    title: string
+    newPrice: string
+    oldPrice: string
+}
