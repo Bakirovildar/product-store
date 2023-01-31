@@ -2,6 +2,7 @@ import img1 from '../assests/img/prodImg1.png'
 
 export const products = [
     {
+        id: 1,
         img: img1,
         sale: '-25%',
         title: 'Рубероид РКП-350 ТУ, размер материала 1 х 10 м (10м2, 1 рулон)',
@@ -9,6 +10,7 @@ export const products = [
         oldPrice: '660 ₽'
     },
     {
+        id: 2,
         img: img1,
         sale: '-25%',
         title: 'Рубероид РКП-350 ТУ, размер материала 1 х 10 м (10м2, 1 рулон)',
@@ -16,6 +18,7 @@ export const products = [
         oldPrice: '660 ₽'
     },
     {
+        id: 3,
         img: img1,
         sale: '-25%',
         title: 'Рубероид РКП-350 ТУ, размер материала 1 х 10 м (10м2, 1 рулон)',
@@ -23,6 +26,7 @@ export const products = [
         oldPrice: '660 ₽'
     },
     {
+        id: 4,
         img: img1,
         sale: '-25%',
         title: 'Рубероид РКП-350 ТУ, размер материала 1 х 10 м (10м2, 1 рулон)',

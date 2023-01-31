@@ -59,3 +59,9 @@ export interface ICardComponent {
     price: string
     oldPrice?: string
 }
+
+export interface ICategoryCard {
+    title: string
+    img: string
+    id?: number
+}

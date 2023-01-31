@@ -1,0 +1,31 @@
+.categoryCard {
+    width: 180px;
+    height: 180px;
+    background: #F6F6F6;
+    margin: 16px;
+    overflow: hidden;
+}
+
+.categoryCardTitle {
+    font-family: 'Manrope', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 136%;
+    text-align: center;
+    color: #2F323A;
+    margin: 12px 12px 16px;
+}
+
+.categoryCard img {
+    height:100%;
+    width: 100%;
+}
+
+
+@media all and (min-width: 0px) and (max-width: 706px) {
+    .categoryCard {
+        width: 148px;
+        height: 148px;
+    }
+}

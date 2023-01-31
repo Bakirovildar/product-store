@@ -12,7 +12,7 @@
 }
 
 .headerTitle {
-    font-family: 'Manrope';
+    font-family: 'Manrope', serif;
     font-style: normal;
     font-weight: 600;
     font-size: 34px;
@@ -53,7 +53,7 @@
     .categoryWrapper {
         display: flex;
         flex-direction: column;
-        margin: 0 20px;
+        margin: 40px 20px 0;
     }
 
     .wrapperContainer {
