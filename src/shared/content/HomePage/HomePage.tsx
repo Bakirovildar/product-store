@@ -22,7 +22,7 @@ export function HomePage() {
                 headerTitle='Популярные товары'
                 categoriesNode={topProducts.map(
                     ({img, title, price, id}) =>
-                        <CardComponent img={img} price={price} title={title}/>
+                        <CardComponent img={img} price={price} title={title} isColumnCard={true}/>
                     )}
             />
         </>

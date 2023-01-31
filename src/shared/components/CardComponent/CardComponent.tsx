@@ -4,9 +4,9 @@ import {ButtonComponent} from "../buttons/ButtonComponent";
 import {ButtonStandart} from "../buttons/ButtonStandart";
 import {ICardComponent} from "../../../types/interface";
 
-export function CardComponent({img, sale, title, price, oldPrice}: ICardComponent) {
+export function CardComponent({img, sale, title, price, oldPrice, isColumnCard}: ICardComponent) {
     return (
-        <div className='cardComponent'>
+        <div className={!isColumnCard ? 'cardComponent' : 'cardComponentColumn'}>
             <div className='cardImg'>
                 <img src={img} alt=""/>
                 {sale && <span className='cardImgSale'>{sale}</span>}

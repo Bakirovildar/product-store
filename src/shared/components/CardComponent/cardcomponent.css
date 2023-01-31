@@ -3,6 +3,12 @@
     margin-bottom: 16px;
 }
 
+.cardComponentColumn {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
 .cardImg {
     width: 278px;
     height: 208px;

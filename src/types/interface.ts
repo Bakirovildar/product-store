@@ -53,6 +53,7 @@ export  interface IRightSide {
 
 export interface ICardComponent {
     img: string
+    isColumnCard?: boolean
     sale?: string
     title: string
     price: string
