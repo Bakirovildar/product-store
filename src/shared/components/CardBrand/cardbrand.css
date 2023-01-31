@@ -5,6 +5,12 @@
     border: 1px solid #E8E9EA;
     overflow: hidden;
     margin: 16px;
+    cursor: pointer;
+    transition: all ease 400ms;
+}
+
+.cardBrand:hover {
+    border: 1px solid #5D6066;
 }
 
 .cardBrand img {

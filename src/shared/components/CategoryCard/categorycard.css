@@ -4,6 +4,12 @@
     background: #F6F6F6;
     margin: 16px;
     overflow: hidden;
+    cursor: pointer;
+    transition: all ease 400ms;
+}
+
+.categoryCard:hover {
+    background: #FCEC41;
 }
 
 .categoryCardTitle {
