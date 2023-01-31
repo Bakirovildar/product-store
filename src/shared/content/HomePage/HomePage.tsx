@@ -7,6 +7,8 @@ import {products} from '../../../helpers/products'
 import {topProducts} from '../../../helpers/products'
 import {CategoryCard} from "../../components/CategoryCard";
 import {categories} from "../../../helpers/categories";
+import {brands} from "../../../helpers/brands";
+import {CardBrand} from "../../components/CardBrand";
 
 export function HomePage() {
     return (
@@ -21,7 +23,7 @@ export function HomePage() {
                     )}
             />
             <CategoryWrapper
-                headerTitle='Популярные товары'
+                headerTitle='Популярные категории'
                 buttonTitle='Все категории'
                 categoriesNode={categories.map(
                     ({img, title, id}) =>
@@ -33,6 +35,14 @@ export function HomePage() {
                 categoriesNode={topProducts.map(
                     ({img, title, price, id}) =>
                         <CardComponent img={img} price={price} title={title} isColumnCard={true} key={id}/>
+                    )}
+            />
+            <CategoryWrapper
+                headerTitle='Бренды'
+                buttonTitle='Все бренды'
+                categoriesNode={brands.map(
+                    ({img, id}) =>
+                        <CardBrand img={img} key={id}/>
                     )}
             />
         </>

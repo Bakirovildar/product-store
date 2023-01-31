@@ -65,3 +65,7 @@ export interface ICategoryCard {
     img: string
     id?: number
 }
+
+export interface ICardBrand {
+    img: string
+}
