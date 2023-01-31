@@ -8,9 +8,14 @@ export function CategoryWrapper({headerTitle, buttonTitle, categoriesNode}: ICat
         <div className='categoryWrapper'>
             <div className='categoryHeader'>
                 <span className='headerTitle'>{headerTitle}</span>
-                <ButtonReview buttonTitle={buttonTitle}/>
+                <div className='buttonDesktop'>
+                    <ButtonReview buttonTitle={buttonTitle}/>
+                </div>
             </div>
             <div className='wrapperContainer'>{categoriesNode}</div>
+            <div className='buttonMobile'>
+                <ButtonReview buttonTitle={buttonTitle}/>
+            </div>
         </div>
     )
 }

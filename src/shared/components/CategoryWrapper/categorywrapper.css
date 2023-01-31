@@ -29,9 +29,54 @@
     flex-wrap: wrap;
 }
 
-@media all and (min-width: 0px) and (max-width: 850px) {
+.buttonDesktop {
+    display: block;
+}
+
+.buttonMobile {
+    display: none;
+    margin-top: 8px;
+}
+
+@media all and (min-width: 706px) and (max-width: 840px) {
     .wrapperContainer {
         display: flex;
+        width: 100%;
+        justify-content: center;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (min-width: 0px) and (max-width: 706px) {
+    .categoryWrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .wrapperContainer {
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+
+    .buttonDesktop {
+        display: none;
+    }
+
+    .buttonMobile {
+        display: block;
+    }
+
+}
+
+
+@media all and (min-width: 0px) and (max-width: 381px) {
+    .wrapperContainer {
+        display: flex;
+        width: 100%;
         justify-content: center;
         box-sizing: border-box;
         flex-wrap: wrap;

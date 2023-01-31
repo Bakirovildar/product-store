@@ -1,6 +1,5 @@
 .cardComponent {
     display: flex;
-    flex-direction: column;
     margin-bottom: 16px;
 }
 
@@ -72,6 +71,12 @@
     text-decoration: line-through;
 }
 
+
+@media all and (min-width: 0px) and (max-width: 1400px) {
+    .cardComponent {
+        flex-direction: column;
+    }
+}
 
 @media all and (min-width: 0px) and (max-width: 706px) {
     .cardComponent {
