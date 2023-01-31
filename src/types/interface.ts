@@ -53,8 +53,8 @@ export  interface IRightSide {
 
 export interface ICardComponent {
     img: string
-    sale: string
+    sale?: string
     title: string
-    newPrice: string
-    oldPrice: string
+    price: string
+    oldPrice?: string
 }

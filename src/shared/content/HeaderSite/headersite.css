@@ -3,12 +3,14 @@
     padding: 0 140px;
     box-sizing: border-box;
     display: flex;
+    z-index: 1000;
     flex-direction: column;
 }
 
 .header-container-mobile {
     display: none;
     box-sizing: border-box;
+    z-index: 1000;
 }
 
 @media all and (min-width: 706px) and (max-width: 796px) {
