@@ -3,6 +3,9 @@ import './bannerreview.css';
 
 export function BannerReview() {
   return (
-      <div></div>
+      <div className='bannerReview'>
+        <div className='headReview'>Отзывы</div>
+        <div></div>
+      </div>
   );
 }

@@ -1,0 +1,16 @@
+.bannerReview {
+    background: #F6F6F6;
+    padding: 84px 140px;
+}
+
+.headReview {
+    font-family: 'Manrope', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #2F323A;
+    margin-bottom: 20px;
+}

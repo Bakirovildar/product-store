@@ -9,6 +9,7 @@ import {CategoryCard} from "../../components/CategoryCard";
 import {categories} from "../../../helpers/categories";
 import {brands} from "../../../helpers/brands";
 import {CardBrand} from "../../components/CardBrand";
+import {BannerReview} from "./BannerReview";
 
 export function HomePage() {
     return (
@@ -45,6 +46,7 @@ export function HomePage() {
                         <CardBrand img={img} key={id}/>
                     )}
             />
+            <BannerReview/>
         </>
     );
 }
